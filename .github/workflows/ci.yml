@@ -1,4 +1,7 @@
-name: CI
+      - uses: actions/upload-artifact@v4
+        with:
+          name: glass-tv-apk
+          path: launcher/app/build/outputs/apk/release/*.apkname: CI
 
 on:
   push:
